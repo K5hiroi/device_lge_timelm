@@ -5,3 +5,8 @@
 
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lineage_timelm.mk
+
+COMMON_LUNCH_CHOICES := \
+    alpha_timelm-user \
+    alpha_timelm-userdebug \
+    alpha_timelm-eng
