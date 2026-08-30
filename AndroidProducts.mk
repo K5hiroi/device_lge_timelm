@@ -4,7 +4,7 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_timelm.mk
+    $(LOCAL_DIR)/alpha_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
     alpha_timelm-user \
