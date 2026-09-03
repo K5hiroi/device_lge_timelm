@@ -233,3 +233,6 @@ CONFIG_ACS := true
 
 # Inherit the proprietary files
 include vendor/lge/timelm/BoardConfigVendor.mk
+
+# Broken Dupe Rules
+BUILD_BROKEN_DUP_RULES := true
