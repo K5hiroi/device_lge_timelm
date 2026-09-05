@@ -400,6 +400,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
+# IMS
+PRODUCT_PACKAGES += \
+    PhhIms
+
+PRODUCT_COPY_FILES += \
+    device/lge/timelm/packages/apps/ims/privapp-permissions-me.phh.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-me.phh.ims.xml
+    
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     qca6390_firmware_symlink \
