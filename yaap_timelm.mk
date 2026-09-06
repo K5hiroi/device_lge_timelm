@@ -11,24 +11,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/lge/timelm/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/alpha/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := alpha_timelm
+PRODUCT_NAME := yaap_timelm
 PRODUCT_DEVICE := timelm
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LM-V600
 
-# Alpha Flags
+# YAAP Flags
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
-ALPHA_BUILD_TYPE := UNOFFICIAL
-ALPHA_MAINTAINER := "K5hiroi"
+YAAP_BUILD_TYPE := UNOFFICIAL
+YAAP_MAINTAINER := "K5hiroi"
 
 # Build Package Type
 TARGET_BUILD_PACKAGE := 1
