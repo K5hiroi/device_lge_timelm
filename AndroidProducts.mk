@@ -4,9 +4,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/alpha_timelm.mk
+    $(LOCAL_DIR)/yaap_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
-    alpha_timelm-user \
-    alpha_timelm-userdebug \
-    alpha_timelm-eng
+    yaap_timelm-user \
+    yaap_timelm-userdebug \
+    yaap_timelm-eng
