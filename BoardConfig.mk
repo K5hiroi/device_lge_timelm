@@ -153,7 +153,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Partitions - reserved size
--include vendor/alpha/config/BoardConfigReservedSize.mk
+-include vendor/yaap/config/BoardConfigReservedSize.mk
 
 # Partitions - Add extra space for gapps
 BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 1800000000
