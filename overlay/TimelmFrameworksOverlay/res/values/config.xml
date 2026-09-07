@@ -660,4 +660,6 @@
     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
          fp screen off unlock-->
     <bool name="config_screen_off_udfps_default_on">false</bool>
+    
+    <string name="config_ims_mmtel_package" translatable="false">com.lge.ims</string>
 </resources>
